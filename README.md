@@ -17,7 +17,7 @@ npm install --save userhut-token-decoder jsonwebtoken
 ### Initialize
 
 ```javascript
-import tokenDecoder from "userhut-token-decoder";
+const TokenDecoder = require("userhut-token-decoder");
 const tokenDecoder = new TokenDecoder({
   poolId: "your-pool-id",
   publicKey: "your-public-key"
