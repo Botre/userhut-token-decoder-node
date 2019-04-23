@@ -1,0 +1,26 @@
+{
+  "name": "userhut-token-decoder",
+  "description": "Userhut token decoder for Node",
+  "version": "1.0.0",
+  "author": "Bjorn Krols",
+  "license": "MIT",
+  "main": "dist/userhut-token-decoder.js",
+  "scripts": {
+    "build": "webpack --mode production --progress"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "peer-deps-externals-webpack-plugin": "^1.0.4",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "peerDependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
