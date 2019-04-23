@@ -1,7 +1,7 @@
 {
   "name": "userhut-token-decoder",
   "description": "Userhut token decoder for Node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Bjorn Krols",
   "license": "MIT",
   "main": "dist/userhut-token-decoder.js",
