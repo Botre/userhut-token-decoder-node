@@ -7,10 +7,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname + "/dist/"),
     filename: "userhut-token-decoder.js",
-    library: "UserhutTokenDecoder",
-    libraryTarget: "umd",
-    umdNamedDefine: true
+    library: "UserhutTokenDecoder"
   },
+  target: "node",
   module: {
     rules: [
       {
