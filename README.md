@@ -31,11 +31,6 @@ const token = ctx.request.headers["authorization"];
 const decoded = tokenDecoder.decode(token);
 ```
 
-## Powered by
-
-- Babel 7
-- Webpack 4
-
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)

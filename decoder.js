@@ -1,9 +1,7 @@
-const jwt = require("jsonwebtoken");
-
 const prefix = "Bearer ";
 const algorithm = "RS256";
 
-export default function({ poolId, publicKey }) {
+module.exports = function({ poolId, publicKey }) {
   if (!poolId) {
     throw new Error("Missing poolId");
   }
@@ -17,7 +15,7 @@ export default function({ poolId, publicKey }) {
     if (!token.startsWith(prefix)) {
       throw new Error("Malformed token");
     }
-    const decoded = jwt.verify(
+    const decoded = require("jsonwebtoken").verify(
       token.substring(prefix.length, token.length),
       Buffer.from(publicKey, "base64").toString("ascii"),
       {
@@ -32,4 +30,4 @@ export default function({ poolId, publicKey }) {
   return {
     decode
   };
-}
+};
