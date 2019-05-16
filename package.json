@@ -1,6 +1,6 @@
 {
   "name": "userhut-token-decoder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Userhut token decoder for Node",
   "author": "Bjorn Krols (https://byteboomers.com)",
   "license": "MIT",
