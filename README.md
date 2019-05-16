@@ -1,6 +1,6 @@
 # userhut-token-decoder-node
 
-> Userhut token decoder for Node
+Userhut token decoder for Node
 
 ## Installation
 
@@ -43,11 +43,3 @@ module.exports = async (ctx, next) => {
   return next();
 };
 ```
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
-
-## Twitter
-
-[Follow me on Twitter](https://twitter.com/KrolsBjorn)
