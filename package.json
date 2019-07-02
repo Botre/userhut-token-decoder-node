@@ -19,6 +19,7 @@
     "url": "https://github.com/byteboomers/userhut-token-decoder-node/issues"
   },
   "main": "./src/decoder.js",
+  "scripts": {},
   "dependencies": {},
   "devDependencies": {},
   "peerDependencies": {
