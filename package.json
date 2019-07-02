@@ -1,7 +1,8 @@
 {
   "name": "userhut-token-decoder",
-  "version": "1.0.4",
   "description": "Userhut token decoder for Node",
+  "private": false,
+  "version": "1.0.4",
   "author": "Bjorn Krols (https://byteboomers.com)",
   "license": "MIT",
   "keywords": [
@@ -17,7 +18,9 @@
   "bugs": {
     "url": "https://github.com/byteboomers/userhut-token-decoder-node/issues"
   },
-  "main": "decoder.js",
+  "main": "./src/decoder.js",
+  "dependencies": {},
+  "devDependencies": {},
   "peerDependencies": {
     "jsonwebtoken": "^8.5.1"
   }
